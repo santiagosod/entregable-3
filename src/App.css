@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(./images/PORTADARICKMORTY.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    color: white;
+}
+
+.app{
+    background-color: rgb(92, 61, 28);
+    margin:10em auto 2em auto;
+    min-height: 100%;
+    width: 90%;
+}
+
+.header-img > img{
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+}
+
+.title{
+    text-align: center;
+    padding: 1em;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+    font-family: 'DynaPuff', cursive;
+    font-size: 60px;
+}
+
+.planet__name{
+    margin: 1.5em auto;
+
+    color: rgb(255, 255, 255);
+    font-family: 'DynaPuff', cursive;
+    font-size: 20px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto 1em auto;
+    gap: 1em;
+}
+
+.search-bar{
+    text-align: center;
+    height: 30px;
+    width: 70%;
+
+    background-color: rgb(56, 30, 2);
+    color: white;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+
+    border: none;
+    outline: none;
+
+    transition: 0.4s;
+}
+
+.search-bar:focus{
+    background-color: rgb(56, 30, 2, 0.5);
+}
+
+.search-bar:input{
+    color: rgb(109, 109, 109);
+}
+
+.btn{
+    width: 50px;
+
+    border-radius: 5px;
+    background-color: rgb(0, 75, 92);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+
+    outline: none;
+    border: none;
+
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: rgb(0, 75, 92, 0.5);
+}
+
+.locations{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.descr{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    padding: 0 3em;
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+}
+
+.descr > li{
+    color: rgb(255, 255, 255);
+}
+
+.descr > li > span{
+    color: rgb(0, 255, 234);
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 900px;
+    margin:auto;
+
+    padding-bottom: 1em;
+}
+
+.card-bg{
+    display: flex;
+    gap: 1em;
+    width: 400px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 75, 59);
+
+    border-radius: 8px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.card-img{
+    display: flex;
+
+    
+}
+
+.card-img > img{
+    width: 150px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card-dscr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.sub-title{
+    color: rgb(0, 255, 234);
+    font-weight: bold;
+    
+}
+
+.name{
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding-bottom: 0.5em;
+}
